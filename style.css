@@ -1,0 +1,181 @@
+.main{
+   font-family: 'Poppins', sans-serif;
+   position: relative;
+   border: 1px solid black;
+   width: 1500px;
+   height: 1000px;
+   background-image: url("https://img.lovepik.com/background/20211022/large/lovepik-abstract-blue-background-image_401900053.jpg");
+   background-size: cover; 
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.header{
+    border: 1px solid blue;
+    height: 100px;
+    display: flex;
+}
+.logo{
+    background-image: url("https://th.bing.com/th/id/R.fbbdcf47e0625c2616b2d47a78b4bb7a?rik=U7%2fWuSmU6MeZPA&pid=ImgRaw&r=0");
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
+.logo img {
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+.categories {
+    border: 1px solid blue;
+    width: 1100px;
+    height: 100px;
+}
+.categories ul{
+    list-style-type: none;
+    margin-top: 33px;
+    gap: 22px;
+    font-size: 19px;
+    display: flex;
+    color: antiquewhite;
+}
+.categories a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.search{
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+}
+.search input {
+    margin-top: 33px;
+    border-radius: 15px;
+    margin-left: 60px;
+}
+.search :-ms-input-placeholder{
+    color: gray;
+    font-style: italic;
+}
+.games{
+    
+    width: 1500px;
+    height: 600px ;
+    display: flex;
+}
+.newgames{
+    
+    
+    width: 1100px;
+    height: 600px;
+    overflow: hidden;
+    display: flex;
+}
+.todaygame{
+    width: 550px;
+    height: 600px;
+    flex-direction: column;
+}
+.todaygame img{
+    margin-top: 3px;
+    margin-left: 20px;
+    border-radius: 15px;
+    width: 500px;
+    height: 325px;
+    border: none;
+}
+.todaygame p{
+    width: 425px;
+    height: 100px;
+    color:antiquewhite;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+.adgame{
+   
+    width: 550px;
+    height: 600px;
+    
+}
+.video1 iframe{
+    margin-left: 50px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    width:450px;
+    height: 250px;
+}
+.video2 iframe{
+    margin-left: 50px;
+    margin-bottom: 33px;
+    width:450px;
+    height: 250px;
+}
+.mostpopular{
+    
+    width: 400px;
+    height: 592px;
+}
+.mostpopular table{
+    width: 400px;
+    height: 600px;
+
+}
+.mostpopular img{
+    width: 150px;
+    height: 100px;
+    border-radius: 15px;
+}
+.mostpopular th{
+    color: antiquewhite;
+    font-size: 20px;
+}
+.mostpopular a{
+    color: #99FFFF;
+}
+.aboutus{
+    width: 1500px;
+    height: 296px;
+    display: flex;
+   
+}
+.rewiev{
+    
+    width: 1200px;
+    height: 296px;
+    
+}
+.rewiev p{
+    color:#99FFFF;
+    font-size: 20px;
+    font-style: oblique;
+    width: 1100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.settings{
+    
+    width: 300px;
+    height: 296px;
+   
+}
+.settings h1{
+    color: antiquewhite;
+     margin-top: 110px;
+    margin-left: 50px
+}
+.contact{
+    
+    width: 1200px;
+    height: 100px;
+    
+}
+.contact li{
+    color: antiquewhite;
+    
+}
+.contact ul{
+    margin-top: 60px;
+    margin-left: 50px;
+}
